@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Signup from './components/signup';
 
 function App() {
   return (
-    <div className="text-blue-500">
-     <p>weikl</p>
+    <div className="">
+     <Signup/>
 
     </div>
   );

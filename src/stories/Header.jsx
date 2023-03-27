@@ -69,7 +69,7 @@ export const Header = ({ user, onLogin, onLogout, onCreateAccount }) => (
                 <div className="flex flex-shrink-0 items-center">
                 <button
         type="button"
-        className="rounded-full bg-blue-400 py-1.5 w-26 px-3 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+        className="rounded-full bg-blue-400 py-1.5 w-26 mr-10 px-3 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
       >
         SIGN UP
       </button>

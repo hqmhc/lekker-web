@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import Privacy from './components/pages/Privacy';
 
 function App() {
   return (
-    <div className="text-blue-500">
-     <p>weikl</p>
-
+    <div >
+     
+<Privacy/>
     </div>
   );
 }

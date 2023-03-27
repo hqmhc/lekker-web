@@ -29,16 +29,16 @@ export const Header = ({ user, onLogin, onLogout, onCreateAccount }) => (
 </div>
 </div>
 
-<div className="flex items-center h-0 px-10 mb-16 justify-between ">
+<div className="flex items-center h-6 px-10 mb-16 justify-between ">
   <div className="flex">
                   <img
-                    className="flex h-20 mb-4 w-auto w-auto"
+                    className="flex h-20 mb-10 w-auto"
                     src="https://emoji.slack-edge.com/T5NAQ62LC/lekkerinvoice/95f785fbc903315b.png"
                     alt=""
                   />
                   </div>
                 
-                <div className=" flex px-12 h-10 w-20 justify-end space-x-12">
+                <div className=" flex px-12 h-10 mb-8 w-20 justify-end space-x-12">
                   {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
                   <div className="flex">
                   <a href="/" className="inline-flex items-center  text-sm font-medium text-gray-700 hover:text-blue-500">Features</a>
@@ -61,17 +61,17 @@ export const Header = ({ user, onLogin, onLogout, onCreateAccount }) => (
             <div className="flex flex-shrink-0 items-center">
                   
                   <img
-                    className="hidden  lg:block"
-                    src="http://geo5.net/imagens/Banh-4 w-autodeira-da-Africa-do-Sul.png"
+                    className="hidden h-4 w-auto lg:block"
+                    src="http://geo5.net/imagens/Bandeira-da-Africa-do-Sul.png"
                     alt=""
                   />
                 </div>
                 <div className="flex flex-shrink-0 items-center">
                 <button
         type="button"
-        className="rounded-full bg-blue-500 py-1.5 px-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+        className="rounded-full bg-blue-400 py-1.5 w-26 px-3 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
       >
-        Sign Up
+        SIGN UP
       </button>
       </div>
       </div>

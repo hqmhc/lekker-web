@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import { Features } from './components/pages/Features';
 
 function App() {
   return (
-    <div className="text-blue-500">
-     <p>weikl</p>
+    <div >
+     <Features/>
 
     </div>
   );

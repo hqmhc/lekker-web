@@ -1,11 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-
+import PricingPage from './components/PricingPage';
+ 
 function App() {
   return (
-    <div className="text-blue-500">
-     <p>weikl</p>
-
+    <div>
+<PricingPage/>
     </div>
   );
 }

@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
-
+import ContactPage from './components/ContactPage';
 function App() {
   return (
-    <div className="text-blue-500">
-     <p>weikl</p>
+    <div className="bg-white">
+     <ContactPage/>
 
     </div>
   );

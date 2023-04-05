@@ -4,7 +4,7 @@ export default function Contact(){
     return(
      <div class="relative bg-white px-10">
         <div class="lg:absolute lg:inset-0 lg:left-1/2  ">
-             <img class="rounded-full h-64 w-full bg-white object-cover sm:h-80 lg:absolute lg:h-full rounded-md border border-2" src={Logo}/>
+             <img class="rounded-full h-64 w-full bg-white object-cover sm:h-80 lg:absolute lg:h-full rounded-md border border-2" src={Logo} alt=""/>
         </div>
   <div class="px-10">
     <div class="px-6 lg:px-8">

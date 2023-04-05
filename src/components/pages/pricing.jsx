@@ -15,7 +15,7 @@ const tiers = [
     ],
   },
 ]
-  const items =[
+  const items = [
   {
     name: 'Small Business',
     id: 'item-small business',
@@ -30,31 +30,32 @@ const tiers = [
     ],
   },
 ]
+
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 export default function Pricing() {
-  
   return (
-    <div className=" bg-white py-20 sm:py-30">
+    <div className="bg-white py-20 sm:py-30 ">
       <div className=" max-w-7xl px-6 lg:px-8">
-        <div className="mx-auto max-w-4xl text-center ">
+        <div className="mx-auto max-w-4xl text-center">
           <h2 className="text-lg font-semibold leading-7 text-slate-600">PRICING</h2>
           <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             No transaction fees. Payments are direct to you.
           </p>
-          <p className="mx-auto mt-6 max-w-2xl text-center text-lg  text-gray-600">
+        </div>
+        <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600">
           Get 2-months free with annual billing.
         </p>
-        </div>
-        
-        <div className="isolate flex space-between mx-auto mt-10 grid max-w-md grid-cols-2  md:max-w-2xl md:grid-cols-2  xl:grid-cols-2 ">
-        {tiers.map((tier) => (
+        <div className="isolate  mx-auto mt-10 grid  grid-cols-2 gap-60 md:max-w-2xl md:grid-cols-2 xl:grid-cols-2 ">
+          <div className='w-96 '>
+          {tiers.map((tier) => (
             <div
               key={tier.id}
               className={classNames(
-                'ring-1 ring-cyan-200 rounded-3xl p-8',
-                )}
+                'ring-1 ring-cyan-200',
+                'rounded-3xl p-8 '
+              )}
             >
               <h3
                 id={tier.id}
@@ -64,6 +65,7 @@ export default function Pricing() {
               >
                 {tier.name}
               </h3>
+              
               <img src="https://www.getaplano.com/static/c69688c2fcc79d1e78287ea5a9c65fd3/aef42/core-option-img.png" alt=""/>
               <p className="mt-4 text-lg leading-6 text-gray-600">{tier.description}</p>
               <p className="mt-6 flex items-baseline gap-x-1">
@@ -89,8 +91,9 @@ export default function Pricing() {
               </ul>
             </div>
           ))}
-
-        {items.map((item) => (
+          </div>
+          <div className='   w-96' >
+       {items.map((item) => (
             <div
               key={item.id}
               className={classNames(
@@ -114,7 +117,7 @@ export default function Pricing() {
                 href={item.href}
                 aria-describedby={item.id}
                 className={classNames(
-                 'text-blue-600 ring-1 ring-inset ring-indigo-200 hover:bg-green-400 mt-6 block rounded-md py-2 px-3 text-center text-lg font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600'
+                 'text-blue-600 ring-2 ring-inset ring-indigo-200 hover:bg-green-400 mt-6 block rounded-md py-2 px-3 text-center text-lg font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600'
                 )}
               >
                 Start Free
@@ -129,8 +132,12 @@ export default function Pricing() {
               </ul>
             </div>
           ))}
+          </div>
         </div>
       </div>
     </div>
   )
 }
+
+
+    

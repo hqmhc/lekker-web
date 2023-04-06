@@ -3,7 +3,7 @@ import React from 'react';
 export default function Terms() {
   return (
     <>
-    <div className="py-12 ">
+    <div className="py-12 border border-2 border-gray-300 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
         <div className="lg:text-center   h-30">
           <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase underline">LekkerInvoice</h2>

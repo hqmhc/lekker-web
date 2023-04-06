@@ -3,14 +3,14 @@ import React from "react";
 
 const RefundPolicy = () => {
 return (
-	<div>
+	<div className="border border-2 border-gray-300">
 <div className="px-10">
 		<div className="py-5">	<div className="lg:text-center    h-30 ">
           <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase underline text-blue-800">LekkerInvoice</h2>
           <p className="mt-2 text-3xl  underline leading-8 font-bold tracking-tight text-gray-900 sm:text-4xl">
             Refund Policy </p>
 </div>
-        </div>
+</div>
 	
 <div className="py-5" >
 	<p >

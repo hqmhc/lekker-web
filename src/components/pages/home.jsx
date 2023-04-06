@@ -10,7 +10,7 @@ export default function Home() {
     
     return (
       <>
-      <div className="flex border-b px-">
+      <div className="flex border border-gray-300 ">
         <div className="mx-10 max-w-2xl py-32 sm:py-48 lg:py-8 px-20">
           <h1 className="text-6xl text-left font-bold tracking-tight text-gray-900 sm:text-6xl">
               Business <br></br>invoicing <br></br>software, you'll<br></br> love!

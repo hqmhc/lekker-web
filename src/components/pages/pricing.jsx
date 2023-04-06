@@ -47,8 +47,8 @@ export default function Pricing() {
         <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600">
           Get 2-months free with annual billing.
         </p>
-        <div className="isolate  mx-auto mt-10 grid  grid-cols-2 gap-60 md:max-w-2xl md:grid-cols-2 xl:grid-cols-2 ">
-          <div className='w-96 '>
+         <div className='w-96 '>
+         <div className="isolate  mx-auto mt-10 grid  grid-cols-2 gap-60 md:max-w-2xl md:grid-cols-2 xl:grid-cols-2 ">
           {tiers.map((tier) => (
             <div
               key={tier.id}

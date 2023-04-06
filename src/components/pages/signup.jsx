@@ -1,15 +1,32 @@
 import Img from "../signup.png";
-
+import Footer from "../Footer/footer"; 
 export default function Signup() {
     return (
       <>
        
-        <div className="flex px-10">
+        <div className="flex px-10 border border-2 border-gray-300">
         <div className="relative hidden w-0 flex-1 lg:block px-10">
-            <img
-              className="absolute inset-0 h-full w-full object-cover rounded-md"
-              src={Img}      alt=""
-            />
+        <section class="isolate overflow-hidden bg-white px-6 lg:px-8">
+  <div class="relative mx-auto max-w-2xl py-24 sm:py-32 lg:max-w-4xl">
+    <div class="absolute left-1/2 top-0 -z-10 h-[50rem] w-[90rem] -translate-x-1/2 bg-[radial-gradient(50%_100%_at_top,theme(colors.indigo.100),white)] opacity-20 lg:left-36"></div>
+    <div class="absolute inset-y-0 right-1/2 -z-10 mr-12 w-[150vw] origin-bottom-left skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:mr-20 md:mr-0 lg:right-full lg:-mr-36 lg:origin-center"></div>
+    <figure class="grid grid-cols-1 items-center gap-x-6 gap-y-8 lg:gap-x-10">
+      <div class="relative col-span-2 lg:col-start-1 lg:row-start-2">
+    
+          <p>LekkerInvoice has helped us have a good hold on our cash flow. We can keep track of our income and expenditure easily, and we can also create and send professional looking invoices to our clients in no time.</p>
+      
+      </div>
+      <div class="col-end-1 w-16 lg:row-span-4 lg:w-72">
+        <img class="rounded-xl bg-indigo-50 lg:rounded-3xl" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=576&h=576&q=80" alt=""/>
+      </div>
+      <figcaption class="text-base lg:col-start-1 lg:row-start-3">
+        <div class="font-semibold text-gray-900">Judith Black</div>
+        <div class="mt-1 text-gray-500">CEO of Workcation</div>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
           </div>
           <div className="flex flex-1 flex-col justify-center py-12 px-4 sm:px-6  bg-gray-100 lg:flex-none lg:px-20 xl:px-24">
             <div className="mx-auto w-full max-w-sm lg:w-96">
@@ -159,6 +176,7 @@ export default function Signup() {
           </div>
          
         </div>
+        <Footer/>
       </>
     )
   }

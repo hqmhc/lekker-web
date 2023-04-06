@@ -2,7 +2,7 @@
 export const Features = () => {
  
     return (
-       <div>
+       <div className="border border-2 border-gray-300">
           <div className="flex justify-center">
   <div className=" flex justify-center  flex-col py-8">
       <div className="">

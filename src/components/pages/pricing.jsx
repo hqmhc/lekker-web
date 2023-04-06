@@ -50,6 +50,7 @@ function classNames(...classes) {
         </p>
         <div className="mx-52 mt-10 grid  grid-cols-2 gap-x-96 md:max-w-2xl md:grid-cols-2 xl:grid-cols-2 ">
           <div className=' w-96'>
+
           {tiers.map((tier) => (
             <div
               key={tier.id}

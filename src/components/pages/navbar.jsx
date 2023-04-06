@@ -1,3 +1,4 @@
+
 import React from 'react';
 
 
@@ -5,7 +6,7 @@ import React from 'react';
 export const Navbar = () => (
 
 
-  <header  className='  px-10 '>
+  <header  className='sticky top-0 z-50 px-10 bg-white text-white'>
 
 <div className="flex px-10 py-3  ">
         

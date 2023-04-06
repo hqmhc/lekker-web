@@ -20,6 +20,9 @@ return (
 			Sign Up
 		</NavLink>
         
+		<NavLink to="/refund" activeStyle>
+			Refund Policy
+		</NavLink>
 		
 		<NavLink to="/terms" activeStyle>
 			Terms

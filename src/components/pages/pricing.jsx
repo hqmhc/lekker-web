@@ -34,8 +34,8 @@ const tiers = [
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
-export default function Pricing() {
-  return (
+  export default function Pricing() {
+   return (
     <div className="bg-white py-20 sm:py-30 ">
       <div className=" max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
@@ -44,11 +44,12 @@ export default function Pricing() {
             No transaction fees. Payments are direct to you.
           </p>
         </div>
-        <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-600">
+        
+        <p className="mx-auto mt-6 max-w-2xl text-center tracking-widest text-lg leading-8 font-mono text-gray-900">
           Get 2-months free with annual billing.
         </p>
-        <div className="isolate  mx-auto mt-10 grid  grid-cols-2 gap-60 md:max-w-2xl md:grid-cols-2 xl:grid-cols-2 ">
-          <div className='w-96 '>
+        <div className="mx-52 mt-10 grid  grid-cols-2 gap-x-96 md:max-w-2xl md:grid-cols-2 xl:grid-cols-2 ">
+          <div className=' w-96'>
           {tiers.map((tier) => (
             <div
               key={tier.id}
@@ -92,8 +93,8 @@ export default function Pricing() {
             </div>
           ))}
           </div>
-          <div className='   w-96' >
-       {items.map((item) => (
+          <div className='w-96' >
+          {items.map((item) => (
             <div
               key={item.id}
               className={classNames(
@@ -134,6 +135,7 @@ export default function Pricing() {
           ))}
           </div>
         </div>
+        
       </div>
     </div>
   )

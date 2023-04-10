@@ -36,11 +36,11 @@ function classNames(...classes) {
 }
 export default function Pricing() {
   return (
-    <div className="bg-white py-20 sm:py-30 ">
+    <div className="bg-white py-10 sm:py-30 ">
       <div className=" max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
-          <h2 className="text-lg font-semibold leading-7 text-slate-600">PRICING</h2>
-          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <h2 className="text-lg font-semibold leading-7 text-center text-slate-600">PRICING</h2>
+          <p className="mt-2 text-3xl text-center font-bold tracking-tight text-gray-900 sm:text-4xl">
             No transaction fees. Payments are direct to you.
           </p>
         </div>

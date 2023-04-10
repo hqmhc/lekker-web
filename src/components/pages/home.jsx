@@ -3,7 +3,6 @@ import Footer from "../Footer/footer";
 import { Features } from "./features";
 import Pricing from "./pricing";
 import Contact from "./contact";
-import Signup from "./signup";
 import Logo from "../react-logo.png";
 
 export default function Home() {
@@ -66,9 +65,9 @@ export default function Home() {
             </svg> 
           </div>
           </div>
-          <div className="relative hidden w-0 flex-1 lg:block">
+          <div className="relative w-52  flex-1 lg:block">
          
-             <img class="h-64 w-full bg-white object-cover sm:h-80 lg:absolute lg:h-full rounded-md border border-2" src={Logo}/>
+             <img class=" pt-10 pb-20  pr-10 h-40 w-full bg-white sm:h-80 lg:absolute lg:h-full rounded-md " src={Logo} alt=""/>
         
           
         </div>

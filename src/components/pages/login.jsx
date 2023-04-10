@@ -7,7 +7,7 @@ export default function Login() {
         <div className="flex h-screen px-20 border border-2 border-gray-300">
         <div className="relative hidden w-0 flex-1 lg:block">
             <img
-              className="absolute inset-0 h-full w-full object-cover rounded-md"
+              className="absolute inset-0 h-full w-full pt-10 pb-10 rounded-md"
               src={logo}    alt=""
             />
           </div>

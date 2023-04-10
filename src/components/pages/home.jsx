@@ -43,9 +43,9 @@ export default function Home() {
               <p className="text-slate-700">Issue Receipts Automatically</p>
           </div>
           <div className="mt-5 flex items-center justify-items-start ">
-            <button className="rounded-full w-60 h-10 bg-blue-400  text-xl  text-white shadow-sm hover:bg-green-500 ">
+            <a href="https://beta.lekkerinvoice.co.za/invoices" className="rounded-full w-60 h-10 bg-blue-400  text-xl  text-center text-white shadow-sm hover:bg-green-500 ">
               Start for free
-            </button>
+            </a>
           </div>
           <div className="flex -justify-start py-10 space-x-3">
              <p className='text-2xl font-mono'> <span className="font-bold ">Proven </span>Expert</p>

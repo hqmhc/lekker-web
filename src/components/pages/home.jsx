@@ -3,14 +3,13 @@ import Footer from "../Footer/footer";
 import { Features } from "./features";
 import Pricing from "./pricing";
 import Contact from "./contact";
-import Signup from "./signup";
 import Logo from "../react-logo.png";
 
 export default function Home() {
     
     return (
       <>
-      <div className="flex border-b px-">
+      <div className="flex border border-gray-300 ">
         <div className="mx-10 max-w-2xl py-32 sm:py-48 lg:py-8 px-20">
           <h1 className="text-6xl text-left font-bold tracking-tight text-gray-900 sm:text-6xl">
               Business <br></br>invoicing <br></br>software, you'll<br></br> love!
@@ -43,9 +42,9 @@ export default function Home() {
               <p className="text-slate-700">Issue Receipts Automatically</p>
           </div>
           <div className="mt-5 flex items-center justify-items-start ">
-            <button className="rounded-full w-60 h-10 bg-blue-400  text-xl  text-white shadow-sm hover:bg-green-500 ">
+            <a href="https://beta.lekkerinvoice.co.za/register" className="rounded-md w-60 h-10 bg-blue-400  text-xl  text-center text-white shadow-sm hover:bg-green-500 py-1 ">
               Start for free
-            </button>
+            </a>
           </div>
           <div className="flex -justify-start py-10 space-x-3">
              <p className='text-2xl font-mono'> <span className="font-bold ">Proven </span>Expert</p>
@@ -66,9 +65,9 @@ export default function Home() {
             </svg> 
           </div>
           </div>
-          <div className="relative hidden w-0 flex-1 lg:block">
+          <div className="relative w-52  flex-1 lg:block">
          
-             <img class="h-64 w-full bg-white object-cover sm:h-80 lg:absolute lg:h-full rounded-md border border-2" src={Logo}/>
+             <img class=" pt-10 pb-20  pr-10 h-40 w-full bg-white sm:h-80 lg:absolute lg:h-full rounded-md " src={Logo} alt=""/>
         
           
         </div>
@@ -77,7 +76,7 @@ export default function Home() {
       <Features/>
       <div className="bg-green-300"></div>
       <div className="py-20">
-      <Contact/> 
+    
       </div>
         <Footer/>
       </>

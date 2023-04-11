@@ -5,10 +5,12 @@ export const Features = () => {
  
     return (
       
-  <div className="px-5 py-10">
-  
+  <div className="px-5 py-3">
+    <h className="flex justify-center font-bold text-3xl">Features</h>
+     <h className=" flex justify-center text-xl font-medium text-indigo-600 italic underline  ">With LekkerInvoice you can :</h>
         <div class="overflow-hidden bg-white  sm:py-10  px-3">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
+         
           <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div class="lg:ml-auto lg:pl-4 lg:pt-4">
               <div class="lg:max-w-lg">
@@ -49,7 +51,7 @@ export const Features = () => {
                 </dl>
               </div>
             </div>
-            <div class="flex items-start justify-end lg:order-first px-5 h--6">
+            <div class="flex items-start justify-end lg:order-first px-5 py-6">
             <img class=" bg-white object-cover  rounded-md border border-2 " src={Logo}/>
              </div>
           </div>
@@ -119,7 +121,10 @@ export const Features = () => {
           </figure>
         </div>
       </div>
-      <img class=" bg-white object-cover  rounded-md border border-2 " src={Connect}/>   </div>
+      <div className="py-5">
+      <img class=" bg-white object-cover  rounded-md border border-2 " src={Connect}/> 
+      </div>
+        </div>
   </div>
 </div>
 

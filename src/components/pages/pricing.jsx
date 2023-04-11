@@ -44,13 +44,15 @@ function classNames(...classes) {
             No transaction fees. Payments are direct to you.
           </p>
         </div>
-        
-        <p className="mx-auto mt-6 max-w-2xl text-center tracking-widest text-lg leading-8 font-mono text-gray-900">
+
+        <p className="mx-auto mt-6 max-w-2xl text-center  tracking-widest font-mono text-lg leading-8 text-gray-600">
           Get 2-months free with annual billing.
         </p>
-        <div className="mx-52 mt-10 grid  grid-cols-2 gap-x-96 md:max-w-2xl md:grid-cols-2 xl:grid-cols-2 ">
-          <div className=' w-96'>
+        <div className="mx-52 mt-10 grid grid-cols-2 gap-60 md:max-w-2xl md:grid-cols-2 xl:grid-cols-2 ">
+          <div className='w-96'>
 
+        
+     
           {tiers.map((tier) => (
             <div
               key={tier.id}

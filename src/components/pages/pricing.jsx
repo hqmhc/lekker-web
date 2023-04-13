@@ -34,23 +34,28 @@ const tiers = [
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
+
+
   export default function Pricing() {
    return (
     <div className="bg-white py-20 sm:py-30 ">
+
       <div className=" max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
-          <h2 className="text-lg font-semibold leading-7 text-slate-600">PRICING</h2>
-          <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <h2 className="text-lg font-semibold leading-7 text-center text-slate-600">PRICING</h2>
+          <p className="mt-2 text-3xl text-center font-bold tracking-tight text-gray-900 sm:text-4xl">
             No transaction fees. Payments are direct to you.
           </p>
         </div>
-        
-        <p className="mx-auto mt-6 max-w-2xl text-center tracking-widest text-lg leading-8 font-mono text-gray-900">
+
+        <p className="mx-auto mt-6 max-w-2xl text-center  tracking-widest font-mono text-lg leading-8 text-gray-600">
           Get 2-months free with annual billing.
         </p>
-        <div className="mx-52 mt-10 grid  grid-cols-2 gap-x-96 md:max-w-2xl md:grid-cols-2 xl:grid-cols-2 ">
-          <div className=' w-96'>
+        <div className="mx-52 mt-10 grid grid-cols-2 gap-60 md:max-w-2xl md:grid-cols-2 xl:grid-cols-2 ">
+          <div className='w-96'>
 
+        
+     
           {tiers.map((tier) => (
             <div
               key={tier.id}
@@ -75,12 +80,13 @@ function classNames(...classes) {
                 <span className="text-3xl font-semibold leading-6 text-blue-500">/mo</span>
               </p>
               <a
-                href={tier.href}
+                href="https://beta.lekkerinvoice.co.za/register"
                 aria-describedby={tier.id}
                 className={classNames(
                   'text-blue-600 ring-1 ring-inset ring-indigo-200 hover:bg-green-400 mt-6 block rounded-md py-2 px-3 text-center text-lg font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600'
                 )}
               >
+
                 Start Free
               </a>
               <ul role="list" className="mt-8 space-y-3 text-sm leading-6 text-gray-600">
@@ -116,7 +122,7 @@ function classNames(...classes) {
                 <span className="text-3xl font-semibold leading-6 text-blue-500">/mo</span>
               </p>
               <a
-                href={item.href}
+                href="https://beta.lekkerinvoice.co.za/register"
                 aria-describedby={item.id}
                 className={classNames(
                  'text-blue-600 ring-2 ring-inset ring-indigo-200 hover:bg-green-400 mt-6 block rounded-md py-2 px-3 text-center text-lg font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600'
@@ -138,6 +144,7 @@ function classNames(...classes) {
         </div>
         
       </div>
+      
     </div>
   )
 }

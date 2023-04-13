@@ -38,7 +38,7 @@ function classNames(...classes) {
 
   export default function Pricing() {
    return (
-    <div className="bg-white sm:py-30 ">
+    <div className="bg-white py-20 sm:py-30 ">
 
       <div className=" max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">
@@ -80,12 +80,13 @@ function classNames(...classes) {
                 <span className="text-3xl font-semibold leading-6 text-blue-500">/mo</span>
               </p>
               <a
-                href={tier.href}
+                href="https://beta.lekkerinvoice.co.za/register"
                 aria-describedby={tier.id}
                 className={classNames(
                   'text-blue-600 ring-1 ring-inset ring-indigo-200 hover:bg-green-400 mt-6 block rounded-md py-2 px-3 text-center text-lg font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600'
                 )}
               >
+
                 Start Free
               </a>
               <ul role="list" className="mt-8 space-y-3 text-sm leading-6 text-gray-600">
@@ -121,7 +122,7 @@ function classNames(...classes) {
                 <span className="text-3xl font-semibold leading-6 text-blue-500">/mo</span>
               </p>
               <a
-                href={item.href}
+                href="https://beta.lekkerinvoice.co.za/register"
                 aria-describedby={item.id}
                 className={classNames(
                  'text-blue-600 ring-2 ring-inset ring-indigo-200 hover:bg-green-400 mt-6 block rounded-md py-2 px-3 text-center text-lg font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600'
@@ -143,6 +144,7 @@ function classNames(...classes) {
         </div>
         
       </div>
+      
     </div>
   )
 }

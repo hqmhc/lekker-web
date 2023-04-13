@@ -14,7 +14,7 @@ import { Features } from './components/pages/features';
 import Pricing from './components/pages/pricing';
 import Login from './components/pages/login';
 import { Navbar } from './components/pages/navbar';
-
+import Footer from "./components/pages/footer"
 
 function App() {
 return (
@@ -33,6 +33,7 @@ return (
     <Route path='/login' element={<Login/>} />
     <Route path='/pricing' element={<Pricing/>} />
 	</Routes>
+	<Footer/>
 	</Router>
 );
 }

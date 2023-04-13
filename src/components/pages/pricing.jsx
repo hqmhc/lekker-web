@@ -38,7 +38,7 @@ function classNames(...classes) {
 
   export default function Pricing() {
    return (
-    <div className="bg-white py-20 sm:py-30 ">
+    <div className="bg-white sm:py-30 ">
 
       <div className=" max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-4xl text-center">

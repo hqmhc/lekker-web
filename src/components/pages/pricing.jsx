@@ -51,7 +51,7 @@ function classNames(...classes) {
         <p className="mx-auto mt-6 max-w-2xl text-center  tracking-widest font-mono text-lg leading-8 text-gray-600">
           Get 2-months free with annual billing.
         </p>
-        <div className="mx-52 mt-10 grid grid-cols-2 gap-60 md:max-w-2xl md:grid-cols-2 xl:grid-cols-2 ">
+        <div className="mx-52 mt-10 grid lg:grid-cols-2 gap-10 justify-center xs:justify-center">
           <div className='w-96'>
 
         

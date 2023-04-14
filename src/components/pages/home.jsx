@@ -12,6 +12,7 @@ export default function Home() {
     return (
       <>
       <div className="flex border border-gray-300 ">
+
         <div className="container max-w-2xl py-32 sm:py-48 lg:py-8 px-20 ">
           <div className="aspect-w-4 aspect-h-1">
           <span className=" text-6xl text-left font-bold tracking-tight text-gray-900 sm:text-6xl aspect-w-2 ">
@@ -23,9 +24,9 @@ export default function Home() {
             }}
             /> 
            </span>
-           </div>
+         </div>
           <p className="mt-14 text-lg leading-8 text-lime-700">
-              LekkerInvoice is, simple, modern and reliable
+           LekkerInvoice is, simple, modern and reliable
           </p>
           <div className="flex justify-start py-2 space-x-3">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  className="w-6 h-6 fill-emerald-300">
@@ -75,9 +76,10 @@ export default function Home() {
             </svg> 
           </div>
           </div>
+
           <div className="container relative aspect-h-2">
          <img class="absolute inset-0 right-0 top-0 h-64 w-full bg-fixed object-cover sm:h-80 lg:absolute lg:h-full rounded-md border border-2" src={Logo}/>
-        </div>
+           </div>
       </div>
       <Pricing/>
       <Features/>
@@ -85,7 +87,6 @@ export default function Home() {
       <div className="py-20">
       <Contact/> 
       </div>
-    
       </>
     
   );

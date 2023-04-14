@@ -84,7 +84,7 @@ export default function Home() {
       <div className="py-20">
     
       </div>
-        <Footer/>
+        
       </>
     
   );

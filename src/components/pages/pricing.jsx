@@ -38,6 +38,7 @@ function classNames(...classes) {
 
   export default function Pricing() {
    return (
+    <div className='flex justify-center'>
     <div className="bg-white py-20 sm:py-30 ">
 
       <div className=" max-w-7xl px-6 lg:px-8">
@@ -51,7 +52,10 @@ function classNames(...classes) {
         <p className="mx-auto mt-6 max-w-2xl text-center  tracking-widest font-mono text-lg leading-8 text-gray-600">
           Get 2-months free with annual billing.
         </p>
-        <div className="mx-52 mt-10 grid lg:grid-cols-2 gap-10 justify-center xs:justify-center">
+
+        <div className="mx-52 mt-10 grid lg:grid-cols-2 gap-10 justify-center ">
+
+        
           <div className='w-96'>
 
         
@@ -80,12 +84,13 @@ function classNames(...classes) {
                 <span className="text-3xl font-semibold leading-6 text-blue-500">/mo</span>
               </p>
               <a
-                href={tier.href}
+                href="https://beta.lekkerinvoice.co.za/register"
                 aria-describedby={tier.id}
                 className={classNames(
                   'text-blue-600 ring-1 ring-inset ring-indigo-200 hover:bg-green-400 mt-6 block rounded-md py-2 px-3 text-center text-lg font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600'
                 )}
               >
+
                 Start Free
               </a>
               <ul role="list" className="mt-8 space-y-3 text-sm leading-6 text-gray-600">
@@ -121,7 +126,7 @@ function classNames(...classes) {
                 <span className="text-3xl font-semibold leading-6 text-blue-500">/mo</span>
               </p>
               <a
-                href={item.href}
+                href="https://beta.lekkerinvoice.co.za/register"
                 aria-describedby={item.id}
                 className={classNames(
                  'text-blue-600 ring-2 ring-inset ring-indigo-200 hover:bg-green-400 mt-6 block rounded-md py-2 px-3 text-center text-lg font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600'
@@ -142,6 +147,7 @@ function classNames(...classes) {
           </div>
         </div>
         
+      </div>
       </div>
     </div>
   )

@@ -1,8 +1,9 @@
 import  React from "@heroicons/react/24/outline";
-import Footer from "../Footer/footer";
+
 import { Features } from "./features";
 import Pricing from "./pricing";
 import Contact from "./contact";
+import Signup from "./signup";
 import Logo from "../react-logo.png";
 import Typewriter from "typewriter-effect";
 
@@ -11,8 +12,10 @@ export default function Home() {
     return (
       <>
       <div className="flex border border-gray-300 ">
-        <div className=" max-w-2xl py-32 sm:py-48 lg:py-8 px-20">
-          <span className="text-6xl text-left font-bold tracking-tight text-gray-900 sm:text-6xl --n:53">
+
+        <div className="container max-w-2xl py-32 sm:py-48 lg:py-8 px-20 ">
+          <div className="aspect-w-4 aspect-h-1">
+          <span className=" text-6xl text-left font-bold tracking-tight text-gray-900 sm:text-6xl aspect-w-2 ">
            <Typewriter
             options={{
             strings: ["Business invoicing software, you'll love!"],
@@ -21,8 +24,9 @@ export default function Home() {
             }}
             /> 
            </span>
-          <p className="mt-6 text-lg leading-8 text-lime-700">
-              LekkerInvoice is, simple, modern and reliable
+         </div>
+          <p className="mt-14 text-lg leading-8 text-lime-700">
+           LekkerInvoice is, simple, modern and reliable
           </p>
           <div className="flex justify-start py-2 space-x-3">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  className="w-6 h-6 fill-emerald-300">
@@ -49,7 +53,7 @@ export default function Home() {
               <p className="text-slate-700">Issue Receipts Automatically</p>
           </div>
           <div className="mt-5 flex items-center justify-items-start ">
-            <a href="https://beta.lekkerinvoice.co.za/register" className="rounded-md w-60 h-10 bg-blue-400  text-xl  text-center text-white shadow-sm hover:bg-green-500 py-1 ">
+            <a href="https://beta.lekkerinvoice.co.za/invoices" className="rounded-full w-60 h-10 bg-blue-400  text-xl  text-center text-white shadow-sm hover:bg-green-500 ">
               Start for free
             </a>
           </div>
@@ -73,18 +77,16 @@ export default function Home() {
           </div>
           </div>
 
-          <div className="relative hidden w-0 flex-1 lg:block">
-         <img class="h-64 w-full bg-white object-cover sm:h-80 lg:absolute lg:h-full rounded-md border border-2" src={Logo}/>
-
-        </div>
+          <div className="container relative aspect-h-2">
+         <img class="absolute inset-0 right-0 top-0 h-64 w-full bg-fixed object-cover sm:h-80 lg:absolute lg:h-full rounded-md border border-2" src={Logo}/>
+           </div>
       </div>
       <Pricing/>
       <Features/>
       <div className="bg-green-300"></div>
       <div className="py-20">
-    
+      <Contact/> 
       </div>
-        
       </>
     
   );

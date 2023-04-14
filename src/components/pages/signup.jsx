@@ -1,5 +1,5 @@
 import Img from "../signup.png";
-import Footer from "../Footer/footer"; 
+ 
 export default function Signup() {
     return (
       <>
@@ -115,7 +115,7 @@ export default function Signup() {
           </div>
          
         </div>
-        <Footer/>
+    
       </>
     )
   }

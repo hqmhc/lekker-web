@@ -53,7 +53,10 @@ export default function Home() {
               <p className="text-slate-700">Issue Receipts Automatically</p>
           </div>
           <div className="mt-5 flex items-center justify-items-start ">
-            <a href="https://beta.lekkerinvoice.co.za/invoices" className="rounded-md w-60 h-10 bg-blue-400  text-xl  text-center text-white shadow-sm hover:bg-green-500 py-1 ">
+
+            <a href="https://beta.lekkerinvoice.co.za/invoices" className="rounded-md py-1 w-60 h-10 bg-blue-400  text-xl  text-center text-white shadow-sm hover:bg-green-500 ">
+
+           
               Start for free
             </a>
           </div>
@@ -83,10 +86,9 @@ export default function Home() {
       </div>
       <Pricing/>
       <Features/>
-      <div className="bg-green-300"></div>
-      <div className="py-20">
-      
-      </div>
+
+     
+
       </>
     
   );

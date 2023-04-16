@@ -114,7 +114,7 @@ export const Features = () => {
         <dd class="mt-1 text-gray-600">Easily chase payments as they come due with automated payment reminders.</dd>
       </div>
           <div class="mt-8">
-            <a href="https://beta.lekkerinvoice.co.za/register" class="inline-flex rounded-md text-blue-500 px-3.5 py-2.5 text-sm font-semibold text-white bg-blue-500 hover:bg-green-600 shadow-sm hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
+            <a href="https://beta.lekkerinvoice.co.za/register" class="inline-flex rounded-md text-blue-500 px-3.5 py-2.5 text-sm font-semibold text-white bg-blue-400 hover:bg-green-600 shadow-sm hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
           </div>
         
 

@@ -46,7 +46,7 @@ export const Features = () => {
                     <dt class="inline font-semibold text-gray-900">
                     <svg class="absolute left-1 top-1 h-5 w-5 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true" ><path stroke-linecap="round" stroke-linejoin="round" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"></path></svg>       Issue Receipts Automatically
                     </dt>
-                    <dd class="inline ">-A receipt is issued automatically when payment is secured, and the invoice is marked as paid.</dd>
+                    <dd class="inline "><p>-A receipt is issued automatically when payment is secured, and the invoice is marked as paid.</p></dd>
                   </div>
                   
             
@@ -114,7 +114,7 @@ export const Features = () => {
         <dd class="mt-1 text-gray-600">Easily chase payments as they come due with automated payment reminders.</dd>
       </div>
           <div class="mt-8">
-            <a href="https://beta.lekkerinvoice.co.za/register" class="inline-flex rounded-md text-blue-500 px-3.5 py-2.5 text-sm font-semibold text-white bg-blue-500 hover:bg-green-600 shadow-sm hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
+            <a href="https://beta.lekkerinvoice.co.za/register" class="inline-flex rounded-md text-blue-500 px-3.5 py-2.5 text-sm font-semibold text-white bg-blue-400 hover:bg-green-600 shadow-sm hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
           </div>
         
 
@@ -136,6 +136,65 @@ export const Features = () => {
   </div>
 </div>
 
+<div class="bg-white py-24 sm:py-32">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto max-w-2xl lg:text-center">
+      <h2 class="text-base font-semibold leading-7 text-indigo-600">Invoice faster</h2>
+      <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Everything you need to know about LekkerInvoice</p>
+      <p class="mt-6 text-lg leading-8 text-gray-600">Staying on top of your expenses is crucial to running a strong business. With LekkerInvoice, it's simpler than ever to track your reimbursable expenses and bill your clients right away.</p>
+    </div>
+    <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-4xl">
+      <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
+        <div class="relative pl-16">
+          <dt class="text-base font-semibold leading-7 text-gray-900">
+            <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-400">
+              
+            </div>
+            Convert billable expenses to invoices
+          </dt>
+          <dd class="mt-2 text-base leading-7 text-gray-600">Convert billable expenses to invoices
+Associate billable expenses with customers and then convert them into invoices with the click of a button.</dd>
+</div>
+        <div class="relative pl-16">
+          <dt class="text-base font-semibold leading-7 text-gray-900">
+            <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-400">
+          
+            </div>
+          
+
+            Upload expense receipts
+          </dt>
+          <dd class="mt-2 text-base leading-7 text-gray-600">Snap a picture of an expense receipt and easily upload it to LekkerInvoice for reference.</dd></div>
+
+        <div class="relative pl-16">
+          <dt class="text-base font-semibold leading-7 text-gray-900">
+            <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-400">
+          
+            </div>
+            Track your mileage
+
+          </dt>
+          <dd class="mt-2 text-base leading-7 text-gray-600">Record your vehicle expenses and convert billable miles to money with the mileage tracking feature from LekkerInvoice.
+</dd>
+</div>
+
+
+        <div class="relative pl-16">
+          <dt class="text-base font-semibold leading-7 text-gray-900">
+            <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-400">
+             
+            </div>
+            Categorize expenses
+          </dt>
+          <dd class="mt-2 text-base leading-7 text-gray-600">Classify your expenses under different categories to make expense tracking and reporting easier.
+
+</dd>
+        </div>
+      </dl>
+    </div>
+  </div>
+</div>
+
 
 
   </div>
@@ -144,4 +203,3 @@ export const Features = () => {
       
     );
   };
-  

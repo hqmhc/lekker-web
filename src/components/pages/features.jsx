@@ -148,7 +148,9 @@ export const Features = () => {
         <div class="relative pl-16">
           <dt class="text-base font-semibold leading-7 text-gray-900">
             <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-400">
-              
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 00-3.7-3.7 48.678 48.678 0 00-7.324 0 4.006 4.006 0 00-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3l-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 003.7 3.7 48.656 48.656 0 007.324 0 4.006 4.006 0 003.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3l-3 3" />
+              </svg>
             </div>
             Convert billable expenses to invoices
           </dt>
@@ -158,31 +160,37 @@ Associate billable expenses with customers and then convert them into invoices w
         <div class="relative pl-16">
           <dt class="text-base font-semibold leading-7 text-gray-900">
             <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-400">
-          
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 7.5h-.75A2.25 2.25 0 004.5 9.75v7.5a2.25 2.25 0 002.25 2.25h7.5a2.25 2.25 0 002.25-2.25v-7.5a2.25 2.25 0 00-2.25-2.25h-.75m0-3l-3-3m0 0l-3 3m3-3v11.25m6-2.25h.75a2.25 2.25 0 012.25 2.25v7.5a2.25 2.25 0 01-2.25 2.25h-7.5a2.25 2.25 0 01-2.25-2.25v-.75" />
+            </svg>
             </div>
-          
-
-            Upload expense receipts
+          Upload expense receipts
           </dt>
           <dd class="mt-2 text-base leading-7 text-gray-600">Snap a picture of an expense receipt and easily upload it to LekkerInvoice for reference.</dd></div>
 
         <div class="relative pl-16">
           <dt class="text-base font-semibold leading-7 text-gray-900">
             <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-400">
-          
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+               <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+               <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+            </svg>
             </div>
             Track your mileage
 
           </dt>
           <dd class="mt-2 text-base leading-7 text-gray-600">Record your vehicle expenses and convert billable miles to money with the mileage tracking feature from LekkerInvoice.
-</dd>
-</div>
+          </dd>
+        </div>
 
 
         <div class="relative pl-16">
           <dt class="text-base font-semibold leading-7 text-gray-900">
             <div class="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-400">
-             
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 15.75V18m-7.5-6.75h.008v.008H8.25v-.008zm0 2.25h.008v.008H8.25V13.5zm0 2.25h.008v.008H8.25v-.008zm0 2.25h.008v.008H8.25V18zm2.498-6.75h.007v.008h-.007v-.008zm0 2.25h.007v.008h-.007V13.5zm0 2.25h.007v.008h-.007v-.008zm0 2.25h.007v.008h-.007V18zm2.504-6.75h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V13.5zm0 2.25h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V18zm2.498-6.75h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V13.5zM8.25 6h7.5v2.25h-7.5V6zM12 2.25c-1.892 0-3.758.11-5.593.322C5.307 2.7 4.5 3.65 4.5 4.757V19.5a2.25 2.25 0 002.25 2.25h10.5a2.25 2.25 0 002.25-2.25V4.757c0-1.108-.806-2.057-1.907-2.185A48.507 48.507 0 0012 2.25z" />
+</svg>
+
             </div>
             Categorize expenses
           </dt>

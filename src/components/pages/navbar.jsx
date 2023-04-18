@@ -42,30 +42,33 @@ export const Navbar = () => (
                
                   </div>
                 
-                <div className="flex justify-end px-5 h-10 mb-8 w-20 justify-end space-x-16 text-xl ">
 
-                <a href="/" className="inline-flex hidden md:flex items-center text-gray-700 hover:text-blue-500">Home</a>
+                <div className="flex px-5 h-10 mb-8 w-82 justify-end text-xl ">
+
+
+                <a href="/" className="inline-flex hidden md:flex items-center text-gray-700 hover:text-blue-500 pr-10 pl-10">Home</a>
                  
                
-                  <a href="/features" className="inline-flex hidden md:flex items-center  text-md  text-gray-700 hover:text-blue-500">Features</a>
+                  <a href="/features" className="inline-flex hidden md:flex items-center  text-md text-gray-700 hover:text-blue-500 pr-10 pl-10">Features</a>
                   
 
 
 
-                  <a href="mailto:team@lekkerinvoice.co.za" className="inline-flex hidden md:flex items-center text-md  text-gray-700 hover:text-blue-500">ContactUs</a>
+                  <a href="mailto:team@lekkerinvoice.co.za" className="inline-flex hidden md:flex items-center text-md text-gray-700 hover:text-blue-500 pr-10 pl-10">Contact Us</a>
 
-                  <a href="/pricing" className="inline-flex items-center hidden md:flex text-md  text-gray-700 hover:text-blue-500">Pricing</a>
+
+                  <a href="/pricing" className="inline-flex items-center hidden md:flex text-md text-gray-700 hover:text-blue-500 pr-10 pl-10">Pricing</a>
                   
                   <div className="flex flex-shrink-0 items-center">
             
-                  <a href="https://beta.lekkerinvoice.co.za" className="inline-flex items-center hidden md:flex text-md  text-gray-700 hover:text-blue-500">Login</a>
+                  <a href="https://beta.lekkerinvoice.co.za" className="inline-flex items-center hidden md:flex text-md  text-gray-700 hover:text-blue-500 pr-10 pl-10">Login</a>
                  
             </div>
 
                   <div className="flex flex-shrink-0 items-center">
                   
                   <img
-                    className="hidden h-4 w-auto lg:block"
+                    className="hidden h-4 w-auto lg:block pr-10 pl-10"
                     src="http://geo5.net/imagens/Bandeira-da-Africa-do-Sul.png"
                     alt=""
                   />

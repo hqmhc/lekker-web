@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import {  Routes, Route, HashRouter} from 'react-router-dom';
 import Home from './components/pages/home';
 
 
@@ -18,7 +18,7 @@ import Footer from "./components/pages/footer"
 
 function App() {
 return (
-	<Router>
+	<HashRouter>
 <Navbar/>
 	<Routes>
 		<Route exact path='/' exact element={<Home />} />
@@ -34,7 +34,7 @@ return (
     <Route path='/pricing' element={<Pricing/>} />
 	</Routes>
 	<Footer/>
-	</Router>
+	</HashRouter>
 );
 }
 

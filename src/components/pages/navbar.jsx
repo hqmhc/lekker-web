@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 //import React, { useState } from 'react'; 
 
 
@@ -49,15 +50,13 @@ export const Navbar = () => (
                 <a href="/" className="inline-flex hidden md:flex items-center text-gray-700 hover:text-blue-500 pr-10 pl-10">Home</a>
                  
                
-                  <a href="/features" className="inline-flex hidden md:flex items-center  text-md text-gray-700 hover:text-blue-500 pr-10 pl-10">Features</a>
-                  
-
+                  <Link to="/features" className="inline-flex hidden md:flex items-center  text-md text-gray-700 hover:text-blue-500 pr-10 pl-10">Features</Link>
 
 
                   <a href="mailto:team@lekkerinvoice.co.za" className="inline-flex hidden md:flex items-center text-md text-gray-700 hover:text-blue-500 pr-10 pl-10">Contact Us</a>
 
 
-                  <a href="/pricing" className="inline-flex items-center hidden md:flex text-md text-gray-700 hover:text-blue-500 pr-10 pl-10">Pricing</a>
+                  <Link to="/pricing" className="inline-flex items-center hidden md:flex text-md text-gray-700 hover:text-blue-500 pr-10 pl-10">Pricing</Link>
                   
                   <div className="flex flex-shrink-0 items-center">
             

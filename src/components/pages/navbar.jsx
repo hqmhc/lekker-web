@@ -60,7 +60,7 @@ export const Navbar = () => (
                   
                   <div className="flex flex-shrink-0 items-center">
             
-                  <a href="https://beta.lekkerinvoice.co.za" className="inline-flex items-center hidden md:flex text-md  text-gray-700 hover:text-blue-500 pr-10 pl-10">Login</a>
+                  <a href="https://app.lekkerinvoice.co.za" className="inline-flex items-center hidden md:flex text-md  text-gray-700 hover:text-blue-500 pr-10 pl-10">Login</a>
                  
             </div>
 
@@ -77,7 +77,7 @@ export const Navbar = () => (
                         </div>
                   <div className="flex flex-shrink-0 items-center">
             
-        <a href="https://beta.lekkerinvoice.co.za/register"
+        <a href="https://app.lekkerinvoice.co.za/register"
         className="rounded-md bg-blue-400 py-1.5 w-26 mr-4 px-3 text-xl text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
        SIGN UP
       </a>

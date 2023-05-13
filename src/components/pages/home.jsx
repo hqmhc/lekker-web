@@ -54,7 +54,7 @@ export default function Home() {
           </div>
           <div className="mt-5 flex items-center justify-items-start ">
 
-            <a href="https://beta.lekkerinvoice.co.za/invoices" className="rounded-md py-1 w-60 h-10 bg-blue-400  text-xl  text-center text-white shadow-sm hover:bg-green-500 ">
+            <a href="https://app.lekkerinvoice.co.za/invoices" className="rounded-md py-1 w-60 h-10 bg-blue-400  text-xl  text-center text-white shadow-sm hover:bg-green-500 ">
 
            
               Start for free

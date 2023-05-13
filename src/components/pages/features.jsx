@@ -7,7 +7,7 @@ export const Features = () => {
 
     <div className="px-5 py-3">
 
-      <h className=" flex justify-center text-xl font-medium text-blue-500 italic underline  ">With LekkerInvoice you can :</h>
+      <h className=" flex justify-center text-xl font-medium text-blue-500 italic underline mt-24">With LekkerInvoice you can :</h>
       <div class="overflow-hidden bg-white  sm:py-10  px-3">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
 

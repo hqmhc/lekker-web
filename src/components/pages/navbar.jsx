@@ -60,7 +60,7 @@ export const Navbar = () => (
                   
                   <div className="flex flex-shrink-0 items-center">
             
-                  <a href="https://app.lekkerinvoice.co.za" className="inline-flex items-center hidden md:flex text-md  text-gray-700 hover:text-blue-500 pr-10 pl-10">Login</a>
+                  <a href="https://app.lekkerinvoice.co.za/login" className="inline-flex items-center hidden md:flex text-md  text-gray-700 hover:text-blue-500 pr-10 pl-10">Login</a>
                  
             </div>
 

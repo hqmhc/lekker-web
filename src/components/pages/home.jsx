@@ -4,7 +4,7 @@ import { Features } from "./features";
 import Pricing from "./pricing";
 import Contact from "./contact";
 import Signup from "./signup";
-import Logo from "../react-logo.png";
+import Logo from "../home-logo.png";
 import Typewriter from "typewriter-effect";
 
 export default function Home() {
@@ -81,7 +81,7 @@ export default function Home() {
           </div>
 
           <div className="container relative aspect-h-2">
-         <img class="absolute inset-0 right-0 top-0 h-64 w-full bg-fixed object-cover sm:h-80 lg:absolute lg:h-full rounded-md border border-2" src={Logo}/>
+         <img class="absolute inset-0 right-0 top-0 h-64 w-full bg-fixed object-cover sm:h-80 lg:absolute lg:h-full rounded-md" src={Logo}/>
            </div>
       </div>
       <Features/>

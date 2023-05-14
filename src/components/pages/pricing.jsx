@@ -82,7 +82,7 @@ function classNames(...classes) {
                 <span className="text-3xl font-semibold leading-6 text-blue-500">/mo</span>
               </p>
               <a
-                href="https://beta.lekkerinvoice.co.za/register"
+                href="https://app.lekkerinvoice.co.za/register"
                 aria-describedby={tier.id}
                 className={classNames(
                   'text-blue-600 ring-1 ring-inset ring-indigo-200 hover:bg-green-400 mt-6 block rounded-md py-2 px-3 text-center text-lg font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600'
@@ -124,7 +124,7 @@ function classNames(...classes) {
                 <span className="text-3xl font-semibold leading-6 text-blue-500">/mo</span>
               </p>
               <a
-                href="https://beta.lekkerinvoice.co.za/register"
+                href="https://app.lekkerinvoice.co.za/register"
                 aria-describedby={item.id}
                 className={classNames(
                  'text-blue-600 ring-2 ring-inset ring-indigo-200 hover:bg-green-400 mt-6 block rounded-md py-2 px-3 text-center text-lg font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600'

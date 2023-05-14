@@ -63,7 +63,7 @@ export const Features = () => {
       <div class="bg-white py-10 sm:py-10">
         <div class="mx-auto max-w-7xl px-6 lg:px-8">
           <div class="mx-auto max-w-2xl lg:mx-0">
-            <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">All payments <a class="text-blue-500 underline" href="https://beta.lekkerinvoice.co.za/register">online</a></h2>
+            <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">All payments <a class="text-blue-500 underline" href="https://app.lekkerinvoice.co.za/register">online</a></h2>
             <p class="mt-6 text-lg leading-8 text-gray-600">With LekkerInvoice, creating and sending invoices is a matter of a few clicks.</p>
           </div>
           <dl class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 text-base leading-7 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3">
@@ -114,7 +114,7 @@ export const Features = () => {
                   <dd class="mt-1 text-gray-600">Easily chase payments as they come due with automated payment reminders.</dd>
                 </div>
                 <div class="mt-8">
-                  <a href="https://beta.lekkerinvoice.co.za/register" class="inline-flex rounded-md text-blue-500 px-3.5 py-2.5 text-sm font-semibold text-white bg-blue-400 hover:bg-green-600 shadow-sm hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
+                  <a href="https://app.lekkerinvoice.co.za/register" class="inline-flex rounded-md text-blue-500 px-3.5 py-2.5 text-sm font-semibold text-white bg-blue-400 hover:bg-green-600 shadow-sm hover:text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Get started</a>
                 </div>
 
 

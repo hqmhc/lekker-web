@@ -39,9 +39,7 @@ function classNames(...classes) {
   export default function Pricing() {
    return (
     <div className='flex justify-center'>
-    <div className="bg-white py-20 sm:py-30 ">
-
-      <div className=" max-w-7xl px-6 lg:px-8">
+      <div className=" max-w-7xl px-6 lg:px-8 mb-28 ">
         <div className="mx-auto max-w-4xl text-center">
           <h2 className="text-lg font-semibold leading-7 text-center text-slate-600">PRICING</h2>
           <p className="mt-2 text-3xl text-center font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -145,9 +143,7 @@ function classNames(...classes) {
             </div>
           ))}
           </div>
-        </div>
-        
-      </div>
+        </div> 
       </div>
     </div>
   )

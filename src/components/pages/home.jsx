@@ -84,9 +84,8 @@ export default function Home() {
          <img class="absolute inset-0 right-0 top-0 h-64 w-full bg-fixed object-cover sm:h-80 lg:absolute lg:h-full rounded-md border border-2" src={Logo}/>
            </div>
       </div>
-      <Pricing/>
       <Features/>
-
+      <Pricing/>
      
 
       </>
